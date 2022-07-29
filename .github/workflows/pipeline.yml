@@ -32,6 +32,9 @@ jobs:
 
     - name: Configure NPM
       working-directory: inventory
+      run: |
+        echo "//npm.pkg.github.com/:_authToken=\${ACTIONS_DEPLOY_ACCESS_TOKEN}" >> .npmrc
+        echo "always-auth: true" >> .npmrc
 
     - name: Use/Set up Node.js ${{ matrix.node-version }}
       uses: actions/setup-node@v3
