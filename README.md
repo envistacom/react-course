@@ -3,5 +3,5 @@
 
 [![codecov](https://codecov.io/gh/envistacom/react-course/branch/master/graph/badge.svg)](https://codecov.io/gh/envistacom/react-course)
 
-# REACT Beginner Course | TechWithTim Playlist(https://www.youtube.com/playlist?list=PLzMcBGfZo4-nRV61oEu3KfMwWKI571uPT)
+<a href="https://www.youtube.com/playlist?list=PLzMcBGfZo4-nRV61oEu3KfMwWKI571uPT"># REACT Beginner Course | TechWithTim Playlist</a>
 
