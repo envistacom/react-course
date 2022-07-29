@@ -5,3 +5,5 @@
 
 <a href="https://www.youtube.com/playlist?list=PLzMcBGfZo4-nRV61oEu3KfMwWKI571uPT"># REACT Beginner Course | TechWithTim Playlist</a>
 
+# [REACT Beginner Course | TechWithTim Playlist](https://www.youtube.com/playlist?list=PLzMcBGfZo4-nRV61oEu3KfMwWKI571uPT)
+
