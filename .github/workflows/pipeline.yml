@@ -34,7 +34,7 @@ jobs:
       uses: actions/setup-node@v3
       with:
         node-version: ${{ matrix.node-version }}
-        cache-dependency-path: ./inventory/
+        cache-dependency-path: react-course/inventory/package-lock.json
         cache: 'npm'
     #Disabling these by me
     #- run: npm ci
