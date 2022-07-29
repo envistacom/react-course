@@ -3,5 +3,9 @@
 
 [![codecov](https://codecov.io/gh/envistacom/react-course/branch/main/graph/badge.svg?token=9FKKZXKD6N)](https://codecov.io/gh/envistacom/react-course)
 
+[![Known Vulnerabilities](https://snyk.io/test/github/{envistacom}/{react-course}/badge.svg)]
+
+
+
 # [REACT Beginner Course | TechWithTim Playlist](https://www.youtube.com/playlist?list=PLzMcBGfZo4-nRV61oEu3KfMwWKI571uPT)
 
