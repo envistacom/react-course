@@ -79,7 +79,7 @@ jobs:
         #echo "repo is ${repository}"
       
     - name: Deploy
-      npm run deploy
+      run: npm run deploy
       #uses: JamesIves/github-pages-deploy-action@v4
         #with:
           #branch: gh-pages # The branch the action should deploy to.
