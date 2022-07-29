@@ -55,11 +55,11 @@ jobs:
       run: npm install
     #Changed to code coverage using codecov website
     #- run: npm test
-    #- name: Run the tests and generate coverage report
-      #run: npm test -- --coverage
+    - name: Run the tests and generate coverage report
+      run: npm test -- --coverage
 
-    #- name: Upload coverage to Codecov
-      #uses: codecov/codecov-action@v1
+    - name: Upload coverage to Codecov
+      uses: codecov/codecov-action@v1
 
     - name: Build
       run: npm run build
