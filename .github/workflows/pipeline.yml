@@ -63,6 +63,20 @@ jobs:
 
     - name: Build
       run: npm run build
+
+    - name: Show env variables for debugging
+      env:
+        user_name: 'github-actions[bot]'
+        #user_name: 'EnvistacomWhiteHat'
+        user_email: 'github-actions[bot]@users.noreply.github.com'
+        #user_email: 'pechjacobenvistacom@gmail.com'
+        github_token: ${{ secrets.ACTIONS_DEPLOY_ACCESS_TOKEN }}
+        repository: ${{ github.repository }}
+      run: |
+        echo "User is $user_name"
+        echo "email is $user_email"
+        echo "token is ${github_token}"
+        echo "repo is ${repository}"
       
     - name: Deploy
       run:
