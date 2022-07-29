@@ -32,9 +32,9 @@ jobs:
 
     - name: Use/Set up Node.js ${{ matrix.node-version }}
       uses: actions/setup-node@v3
-      working-directory: inventory
       with:
         node-version: ${{ matrix.node-version }}
+        working-directory: ./inventory
         cache: 'npm'
     #Disabling these by me
     #- run: npm ci
