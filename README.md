@@ -3,7 +3,7 @@
 
 [![codecov](https://codecov.io/gh/envistacom/react-course/branch/main/graph/badge.svg?token=9FKKZXKD6N)](https://codecov.io/gh/envistacom/react-course)
 
-[![Known Vulnerabilities](https://snyk.io/test/github/envistacom/react-course/badge.svg)](https://snyk.io/test/github/envistacom/react-course)
+[![Known Vulnerabilities](https://snyk.io/test/github/envistacom/react-course/badge.svg?targetFile=inventory/package.json)](https://snyk.io/test/github/envistacom/react-course?targetFile=inventory/package.json)
 
 
 
