@@ -6,7 +6,7 @@ function App() {
   return (
     <div className="App">
       <img src={logo} className="App-logo" alt="Silly logo"/>
-      <p>This is from app.js</p>
+      <p>learn react</p>
       <Info />
       <Info />
     </div>
