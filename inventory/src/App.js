@@ -5,6 +5,7 @@ import Info from './Info.js';
 function App() {
   return (
     <div className="App">
+      <img src={logo} className="App-logo"/>
       <p>This is from app.js</p>
       <Info />
       <Info />
