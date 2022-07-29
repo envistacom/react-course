@@ -30,11 +30,14 @@ jobs:
     - name: Checkout repository
       uses: actions/checkout@v3
 
+    - name: Configure NPM
+      working-directory: inventory
+
     - name: Use/Set up Node.js ${{ matrix.node-version }}
       uses: actions/setup-node@v3
       with:
         node-version: ${{ matrix.node-version }}
-        cache-dependency-path: '**/package-lock.json'
+        #cache-dependency-path: '**/package-lock.json'
         cache: 'npm'
     #Disabling these by me
     #- run: npm ci
